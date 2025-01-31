@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RB Decorations</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/563c67e27d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>"Find the Right Parts for Your Vehicle Here"</p>
+                <h1>Welcome to RB Decoration</h1>
+            </div>
+        </div>
+    </div>
+
+<!-------------about----------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/card.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title"> About Us</h1>
+                    <p>Welcome to RB Decoration, your premier destination for high-quality spare parts for cars. With a passion for automotive excellence, we curate a wide selection of parts to enhance the performance, aesthetics, and functionality of your vehicle. Whether you're a car enthusiast, a DIY mechanic, or a professional repair shop, we cater to all your automotive needs. From engine components to interior accessories, our extensive inventory ensures that you'll find the perfect part to elevate your driving experience. At RB Decorations, we prioritize customer satisfaction, offering not only top-notch products but also expert guidance and support throughout your shopping journey. Discover the perfect blend of reliability, affordability, and style with RB Decorations.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('overview')">Overview</p>
+                        <p class="tab-links" onclick="opentab('values')">Values</p>
+                        <p class="tab-links" onclick="opentab('commitments')">Commitments</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="overview">
+                        <ul>
+                            <li><span>Founded in 2003:</span><br>RB Decoration was founded in 2003, starting as a small venture with a passion for providing high-quality car spare parts and accessories to enthusiasts and car owners.</li>
+                            <li><span>Mission and Vision:</span><br>Our mission at RB Decoration is to be the premier destination for car enthusiasts, offering a wide range of top-quality spare parts, accessories, and services to enhance every aspect of our customers' driving experience.</li>
+                            <li><span>Growth and Milestones:</span><br>Since our inception, RB Decoration has experienced remarkable growth, expanding our product offerings, services, and customer base.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="values">
+                        <ul>
+                            <li><span>Commitment to Quality:</span><br>At RB Decoration, we are committed to delivering products and services of the highest quality. We meticulously select our suppliers and rigorously test all products to ensure they meet our stringent standards. From car spare parts to accessories and services, we strive for excellence in every aspect of our offerings.</li>
+                            <li><span>Customer Satisfaction:</span><br>Our customers are at the heart of everything we do. We prioritize their needs and preferences, striving to exceed their expectations with personalized service, timely support, and hassle-free shopping experiences. We listen to their feedback and continuously improve our products and services to enhance their satisfaction and loyalty.</li>
+                            <li><span>Innovation and Sustainability:</span><br>RB Decoration embraces innovation as a driving force behind our growth and success. We continually explore new technologies, trends, and ideas to stay ahead of the curve and offer innovative solutions to our customers. Moreover, we are committed to sustainability and environmental responsibility, actively seeking eco-friendly alternatives and practices in our operations and product offerings.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="commitments">
+                        <ul>
+                            <li><span>Satisfaction Guarantee:</span><br>RB Decoration is dedicated to ensuring customer satisfaction with every purchase. We stand behind the quality of our products and services and offer a satisfaction guarantee. If for any reason customers are not completely satisfied with their purchase, they can contact us for assistance.</li>
+                            <li><span>Product Warranties:</span><br>Many of our products come with warranties to provide customers with added peace of mind. These warranties cover manufacturing defects and ensure that customers receive products that meet our quality standards. Customers can refer to the product description or contact us for details on specific warranties.</li>
+                            <li><span>Prompt and Professional Service:</span><br>We strive to provide prompt and professional service to all our customers. Whether it's helping with product selection, resolving an issue, or providing technical support, our team is committed to delivering exceptional service at every interaction.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-------------services----------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title"> Our Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-car"></i>
+                <h2>Installation Services</h2>
+                <p>RB Decoration offers professional installation services for car spare parts and accessories. Whether it's installing a new stereo system, fitting aftermarket headlights, or upgrading engine components, our skilled technicians ensure proper installation for optimal performance and safety.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-car-side"></i>
+                <h2>Modification</h2>
+                <p>RB Decoration specializes in customizing and modifying vehicles to reflect the individual style and preferences of customers. From body kits and spoilers to performance tuning and exhaust upgrades, we provide expert guidance and craftsmanship to transform cars into unique masterpieces.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-car-rear"></i>
+                <h2>Detailing and Aesthetics</h2>
+                <p>RB Decoration offers professional detailing services to enhance the appearance and condition of vehicles. From exterior polishing and paint protection to interior cleaning and leather conditioning, we help restore and maintain the beauty of cars, trucks, and SUVs.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-car-burst"></i>
+                <h2>Diagnostic Services</h2>
+                <p>RB Decoration offers diagnostic services using state-of-the-art equipment to identify and troubleshoot issues with vehicles. Our technicians perform comprehensive diagnostics to pinpoint problems accurately and provide recommendations for necessary repairs or maintenance.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Us</h1>
+                <p><i class="fa-solid fa-envelope"></i> poshish.lhr.pk@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 042-36291139</p>
+                <p><i class="fa-solid fa-mobile"></i> 0321-8484844</p>
+                <p><i class="fa-solid fa-location-dot"></i> Office # 01, First Floor, Saeed Auto Center, Montgomery Road, Lahore.</p>
+
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/rb.decoration.1"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/kashan_saeed_._/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://maps.app.goo.gl/gdpz7PBym1BgipNB6"><i class="fa-solid fa-location-dot"></i></a>
+                </div>
+                <a href="images/card.jpg" class="btn btn2">Save Card</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(var i = 0; i < tablinks.length; i++){
+            tablinks[i].classList.remove("active-link");
+        }
+        for(var i = 0; i < tabcontents.length; i++){
+            tabcontents[i].classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var Sidemenu = document.getElementById("sidemenu")
+
+    function openmenu(){
+        Sidemenu.style.right = "0";
+    }
+
+    function closemenu(){
+        Sidemenu.style.right = "-200px";
+    }
+</script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzCbxpQXU5RxyoQt7Q0_PIND5s6v0XponSasu_300KYPEVnWQ6eD_aPo_RHHhxOoI1maw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                console.log('Success!', response)
+                msg.innerHTML = "Message sent successfully...!"
+                setTimeout(function () {
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => {
+                console.error('Error!', error.message)
+                msg.innerHTML = "Error sending message. Please try again."
+                setTimeout(function () {
+                    msg.innerHTML = ""
+                }, 5000)
+            })
+    })
+  </script>
+
+</body>
+</html>
